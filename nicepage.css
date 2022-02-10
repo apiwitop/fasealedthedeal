@@ -36032,6 +36032,13 @@ a.u-link.u-text-hover-grey-90:hover {
         
         
         
+        
+        
+        
+        
+        
+        
+        
         --theme-sheet-width-xl: 1140px;
         --theme-sheet-width-lg: 940px;
         --theme-sheet-width-md: 720px;
@@ -36064,11 +36071,14 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         h1:not(.u-title)
         {
-        font-weight: 400;
-        font-size: 3rem;
+        font-size: 2.25rem;
         line-height: 1.1;
         margin-top: 20px;
         margin-bottom: 20px;
+        list-icon-spacing: 0.3;
+        list-icon-size: 0.8;
+        font-family: 'Bilbo Swash Caps';
+        font-weight: 700;
         }
         h2:not(.u-subtitle)
         {
@@ -36115,6 +36125,10 @@ a.u-link.u-text-hover-grey-90:hover {
         font-size: 1.25rem;
         margin-top: 20px;
         margin-bottom: 20px;
+        line-height: 1.6;
+        list-icon-spacing: 0.3;
+        list-icon-size: 0.8;
+        font-family: Spartan;
         }
         p.u-small-text
         {
@@ -36358,33 +36372,17 @@ a.u-link.u-text-hover-grey-90:hover {
 
 
 
+ .u-footer {
+  background-image: none;
+}
+
 .u-footer .u-sheet-1 {
-  min-height: 107px;
+  min-height: 120px;
 }
 
-.u-footer .u-social-icons-1 {
-  height: 32px;
-  min-height: 16px;
-  width: 158px;
-  min-width: 94px;
-  white-space: nowrap;
-  margin: 40px auto 35px;
-}
-
-.u-footer .u-icon-1 {
-  color: rgb(59, 89, 152) !important;
-}
-
-.u-footer .u-icon-2 {
-  color: rgb(85, 172, 238) !important;
-}
-
-.u-footer .u-icon-3 {
-  color: rgb(197, 54, 164) !important;
-}
-
-.u-footer .u-icon-4 {
-  color: rgb(0, 122, 185) !important;
+.u-footer .u-text-1 {
+  width: 417px;
+  margin: 49px auto;
 }
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
@@ -36404,6 +36402,10 @@ a.u-link.u-text-hover-grey-90:hover {
 @media (max-width: 575px) {
   .u-footer .u-sheet-1 {
     min-height: 36px;
+  }
+
+  .u-footer .u-text-1 {
+    width: 340px;
   }
 }
 
