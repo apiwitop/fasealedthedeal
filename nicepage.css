@@ -36039,11 +36039,17 @@ a.u-link.u-text-hover-grey-90:hover {
         
         
         
+        
         --theme-sheet-width-xl: 1140px;
         --theme-sheet-width-lg: 940px;
         --theme-sheet-width-md: 720px;
         --theme-sheet-width-sm: 540px;
         --theme-sheet-width-xs: 340px;
+        
+        
+        
+        
+        
         
         
         
@@ -36140,6 +36146,7 @@ a.u-link.u-text-hover-grey-90:hover {
         {
         margin-top: 20px;
         margin-bottom: 20px;
+        font-family: 'Annie Use Your Telescope';
         }
         .u-btn
         {
@@ -36212,6 +36219,16 @@ a.u-link.u-text-hover-grey-90:hover {
         h3
         {
         font-size: 1.5rem;
+        }
+        }
+        @media (max-width: 1199px) {
+        p:not(.u-text-variant)
+        {
+        font-size: 1.25rem;
+        line-height: 1.6;
+        color: #ffffff;
+        list-icon-spacing: 0.3;
+        list-icon-size: 0.8;
         }
         }
         /*end-media rules*/
@@ -36373,15 +36390,16 @@ a.u-link.u-text-hover-grey-90:hover {
 
 
 .u-footer .u-sheet-1 {
-  min-height: 120px;
+  min-height: 158px;
 }
 
 .u-footer .u-social-icons-1 {
   min-height: 16px;
-  width: 158px;
-  min-width: 94px;
+  width: 88px;
+  min-width: 50px;
   white-space: nowrap;
-  margin: 44px auto;
+  height: 35px;
+  margin: 79px auto 44px;
 }
 
 .u-footer .u-icon-1 {
@@ -36399,7 +36417,6 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-footer .u-social-icons-1 {
     height: 32px;
     width: 82px;
-    min-width: 50px;
   }
 }
 @media (max-width: 991px) {
@@ -36414,7 +36431,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 575px) {
   .u-footer .u-sheet-1 {
-    min-height: 120px;
+    min-height: 158px;
   }
 
   .u-footer .u-social-icons-1 {
